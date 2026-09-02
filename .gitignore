@@ -1,0 +1,15 @@
+# MySQL files
+mysql/
+*.sock
+*.ibd
+*.frm
+*.MYD
+*.MYI
+*.MYI
+*.opt
+*.CSM
+*.CSV
+
+# OS files
+.DS_Store
+Thumbs.db
