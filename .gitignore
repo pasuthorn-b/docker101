@@ -1,14 +1,16 @@
-# MySQL files
-mysql/
-*.sock
-*.ibd
-*.frm
-*.MYD
-*.MYI
-*.MYI
-*.opt
-*.CSM
-*.CSV
+# MySQL data files (keep mysql/ folder but exclude data)
+mysql/mysql.sock
+mysql/**/*.ibd
+mysql/**/*.frm
+mysql/**/*.MYD
+mysql/**/*.MYI
+mysql/**/*.opt
+mysql/**/*.CSM
+mysql/**/*.CSV
+mysql/ib_logfile*
+mysql/ibdata*
+mysql/ibtmp*
+mysql/auto.cnf
 
 # OS files
 .DS_Store
