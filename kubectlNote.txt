@@ -1,0 +1,6 @@
+kubectl get pods = เรียกpodsที่ทำงานอยู่ขึ้นมาดู
+kubectl apply -f ./ชื่อyml
+kubectl delete all --all = ลบทั้งหมด
+kubectl delete pods client-deployment-เลขpods
+kubectl get all = เรียกpodsที่ทำงานทั้งหมดอยู่ขึ้นมาดู
+kubectl delete deployments client-deployment = ลบdeployment
