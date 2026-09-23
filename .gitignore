@@ -1,0 +1,23 @@
+# MySQL data files (keep mysql/ folder but exclude data)
+database/
+mysql/mysql.sock
+mysql/**/*.ibd
+mysql/**/*.frm
+mysql/**/*.MYD
+mysql/**/*.MYI
+mysql/**/*.opt
+mysql/**/*.CSM
+mysql/**/*.CSV
+mysql/ib_logfile*
+mysql/ibdata*
+mysql/ibtmp*
+mysql/auto.cnf
+
+# WordPress core is provided by the Docker image; keep site content only
+wp/*
+!wp/wp-content/
+!wp/wp-content/**
+
+# OS files
+.DS_Store
+Thumbs.db
